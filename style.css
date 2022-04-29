@@ -4,11 +4,23 @@ body {
 }
 
 .title-container {
-	background-color: orangered;
 	padding: 16px;
+	margin-top: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255, 69, 0);
 	border-radius: 12px 12px 0px 0px;
 	width: 60%;
 	overflow: hidden;
 	color: white;
-	margin: 64px auto;
+}
+
+.form-container {
+	padding: 16px;
+	margin-bottom: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 69, 0, 0.4);
+	width: 60%;
+	border-radius: 0px 0px 12px 12px;
 }
