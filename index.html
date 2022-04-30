@@ -14,11 +14,24 @@
 		<p id="description">Thanks for participation in survey, it will help to make our product better.</p>
 	</div>
 	<div class="form-container">
-		<input type="text" placeholder="Enter your Name" />
-		<br />
-		<input type="email" placeholder="Enter your E-Mail" />
-		<br />
-		<input type="number" placeholder="Enter your Age" min="18" max="65" />
+		<form id="survey-form">
+			<label id="name-label" for="name">Name</label>
+			<input id="name" type="text" placeholder="Enter your Name" name="name" />
+			<br />
+			<label id="email-label" for="email">Email</label>
+			<input id="email" type="email" placeholder="Enter your E-Mail" name="email" />
+			<br />
+			<label id="number-label" for="number">Age</label>
+			<input id="number" type="number" placeholder="Enter your Age" min="18" max="65" name="number" />
+			<br />
+			<label>What is your favourite eating time?</label>
+			<select id="dropdown">
+				<option>None</option>
+				<option>Breakfast</option>
+				<option>Lunch</option>
+				<option>Dinner</option>
+			</select>
+		</form>
 	</div>
 </body>
 
