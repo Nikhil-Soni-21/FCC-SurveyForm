@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: rgba(255, 69, 0, 0.4);
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -8,7 +9,7 @@ body {
 .title-container {
 	max-width: 700px;
 	padding: 8px;
-	margin-top: 16px;
+	margin-top: 32px;
 	margin-left: auto;
 	text-align: center;
 	color: white;
@@ -23,9 +24,14 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -16px;
+	margin-bottom: 32px;
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
-	background-color: rgba(255, 69, 0, 0.3);
+	background-color: orangered;
+}
+
+#description {
+	margin-bottom: 32px;
 }
 
 input[type=text],
@@ -41,17 +47,28 @@ input[type=number] {
 	outline: none;
 }
 
+input[type=radio],
+input[type=checkbox] {
+	width: 18px;
+	height: 18px;
+	margin: 8px 16px 16px 16px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+}
+
 input::placeholder {
 	font-size: 18px;
 }
 
 input:focus {
-	outline: 3px solid rgb(255, 69, 0);
+	outline: 3px solid orangered;
 }
 
 label {
 	margin: 16px;
 	font-size: 20px;
+	color: white;
 }
 
 select {
@@ -62,4 +79,36 @@ select {
 	font-size: 16px;
 	background-color: white;
 	padding: 10px;
+}
+
+span {
+	color: white;
+}
+
+#submit {
+	border: 2px solid white;
+	width: 100px;
+	font-size: 16px;
+	margin-bottom: 32px;
+	padding-top: 8px;
+	margin-left: 16px;
+	margin-right: 8px;
+	color: white;
+	background-color: orangered;
+	padding-bottom: 8px;
+	border-radius: 8px;
+}
+
+textarea {
+	margin: 8px 16px 16px 16px;
+	border: none;
+	font-size: 20px;
+	padding: 4px 8px 4px 8px;
+	border-radius: 4px;
+	outline: none;
+	width: 652px;
+	max-width: 652px;
+	min-width: 652px;
+	min-height: 100px;
+	height: 100px;
 }
